@@ -7,7 +7,7 @@
 ```
 bash <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/sabooh_installer.sh)
 ```
-و برای حذف : 
+و برای حذف 
 ```
 bash <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/sabooh_uninstaller.sh)
 ```
