@@ -7,6 +7,11 @@
 ```
 bash <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/sabooh_installer.sh)
 ```
+و برای حذف : 
+```
+bash <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/sabooh_uninstaller.sh)
+```
+
 ## شاعر
 پیش‌فرض شعری از لسان الغیب حافظ شیرازی انتخاب خواهد شد ، برای تغییر آن در فایل زیر خط ۵ را با موارد دلخواه تغییر دهید
 
