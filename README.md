@@ -3,10 +3,12 @@
 # sabooh
 ## صبوح ، می صبحگاهی را گویند
 ### صبوح در هر نشست شما را مهمان یک شعر می‌کند
+
 ![screenshot](screenshot.png)
 
 ## نصب
 برای نصب خودکار در پوسته بش از دستور 
+
 <div dir="ltr">
 
 ```
@@ -15,13 +17,16 @@ bash <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/sabo
 </div>
 
 و برای پوسته زی‌شل از دستور 
+
 <div dir="ltr">
  
 ```
 zsh <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/sabooh_installer.sh)
 ```
 </div>
+
 و همچنین برای نصب بصورت دستی
+
 <div dir="ltr">
 
 ```
@@ -31,6 +36,7 @@ sudo chmod +x sabooh
 sudo cp sabooh /usr/bin
 ```
 </div>
+
 و در نهایت دستور `sabooh` را در استارت‌اپ لاگین شل قرار دهید
 
 
