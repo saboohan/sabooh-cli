@@ -19,7 +19,7 @@ zsh <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/saboo
 git clone https://github.com/mostafaasadi/sabooh
 cd sabooh 
 sudo chmod +x sabooh
-sudo cp sabooh /usr/bin/
+sudo cp sabooh /usr/bin
 ```
 و در نهایت دستور `sabooh` را در استارت‌اپ لاگین شل قرار دهید
  
@@ -31,10 +31,11 @@ zsh <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/saboo
 
 ## شاعر
 پیش‌فرض شعری از لسان الغیب حافظ شیرازی انتخاب خواهد شد ، برای تغییر آن در فایل زیر خط ۵ را با موارد دلخواه تغییر دهید
-
+<div dir="ltr">
 `/usr/bin/sabooh`
+</div>
 
-(1) همه شاعران
+همه شاعران (1)
 
 حافظ (2)
 
