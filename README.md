@@ -1,7 +1,7 @@
 <div dir="rtl">
 
 # sabooh
-## صبوح ،‌می صبحگاهی را گویند
+## صبوح ، می صبحگاهی را گویند
 ### صبوح در هر نشست شما را مهمان یک شعر می‌کند
 ![screenshot](screenshot.png)
 
@@ -22,6 +22,7 @@ sudo chmod +x sabooh
 sudo cp sabooh /usr/bin/
 ```
 و در نهایت دستور `sabooh` را در استارت‌اپ لاگین شل قرار دهید
+ 
  برای حذف هم
 ```
 bash <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/sabooh_uninstaller.sh)
