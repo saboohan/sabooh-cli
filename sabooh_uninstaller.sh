@@ -1,2 +1,8 @@
 sudo rm -fv /usr/bin/sabooh
-sudo rm -fv /etc/profile.d/sabooh.sh
+if [[ $SHELL == '/bin/bash' ]]; then
+	echo 'your shell : bash'
+	sudo rm -fv /etc/profile.d/sabooh.sh
+elif [[ $SHELL == '/usr/bin/zsh' ]]; then
+	echo 'your zsh : zsh'
+	sudo sed -i '/sabooh/d' /etc/zsh/zprofile
+fi
