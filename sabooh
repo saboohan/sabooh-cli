@@ -3,7 +3,11 @@
 import requests
 
 poet = '2'
-poem = requests.get('http://c.ganjoor.net/beyt-json.php?p=' + poet).json()
+try:
+    poem = requests.get('http://c.ganjoor.net/beyt-json.php?p=' + poet).json()
+except Exception as e:
+    print('دسترسی به اینترنت وجود ندارد')
+
 print(
         '\n\n\t' + poem['m1'] + '\n\t' + poem['m2'] +
         '\n\t\t' + poem['poet'] + '\n')
