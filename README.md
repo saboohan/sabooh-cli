@@ -32,7 +32,9 @@ zsh <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/saboo
 ## شاعر
 پیش‌فرض شعری از لسان الغیب حافظ شیرازی انتخاب خواهد شد ، برای تغییر آن در فایل زیر خط ۵ را با موارد دلخواه تغییر دهید
 <div dir="ltr">
+ 
 `/usr/bin/sabooh`
+
 </div>
 
 همه شاعران (1)
