@@ -7,27 +7,41 @@
 
 ## نصب
 برای نصب خودکار در پوسته بش از دستور 
+<div dir="ltr">
+
 ```
 bash <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/sabooh_installer.sh)
 ```
+</div>
+
 و برای پوسته زی‌شل از دستور 
+<div dir="ltr">
+ 
 ```
 zsh <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/sabooh_installer.sh)
 ```
+</div>
 و همچنین برای نصب بصورت دستی
+<div dir="ltr">
+
 ```
 git clone https://github.com/mostafaasadi/sabooh
 cd sabooh 
 sudo chmod +x sabooh
 sudo cp sabooh /usr/bin
 ```
+</div>
 و در نهایت دستور `sabooh` را در استارت‌اپ لاگین شل قرار دهید
  
- برای حذف هم
+** برای حذف هم **
+
+<div dir="ltr">
+
 ```
 bash <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/sabooh_uninstaller.sh)
 zsh <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/sabooh_uninstaller.sh)
 ```
+</div>
 
 ## شاعر
 پیش‌فرض شعری از لسان الغیب حافظ شیرازی انتخاب خواهد شد ، برای تغییر آن در فایل زیر خط ۵ را با موارد دلخواه تغییر دهید
