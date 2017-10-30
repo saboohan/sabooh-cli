@@ -7,7 +7,7 @@
 ![screenshot](screenshot.png)
 
 ## نصب
-برای نصب خودکار در پوسته بش از دستور 
+برای نصب خودکار در پوسته بش از دستور
 
 <div dir="ltr">
 
@@ -16,10 +16,10 @@ bash <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/sabo
 ```
 </div>
 
-و برای پوسته زی‌شل از دستور 
+و برای پوسته زی‌شل از دستور
 
 <div dir="ltr">
- 
+
 ```
 zsh <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/sabooh_installer.sh)
 ```
@@ -31,7 +31,7 @@ zsh <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/saboo
 
 ```
 git clone https://github.com/mostafaasadi/sabooh
-cd sabooh 
+cd sabooh
 sudo chmod +x sabooh
 sudo cp sabooh /usr/bin
 ```
@@ -50,10 +50,19 @@ zsh <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/saboo
 ```
 </div>
 
+### تنظیمات پایانه 
+
+<div dir="ltr">
+
+پیشنهاد می‌شود از پایانه‌ای مثل کنسول که از زبان‌های راست به چپ به خوبی پشتیبانی می‌کند استفاده کنید ، در غیر این صورت ابزار [FriBidi](https://github.com/behdad/fribidi) به شما کمک خواهد کرد.
+درباره فونت هم پیشنهاد همیشگی من [وزیر](https://rastikerdar.github.io/vazir-font/) نسخه کُد برای پایانه است.
+
+</div>
+
 ## شاعر
 پیش‌فرض شعری از لسان الغیب حافظ شیرازی انتخاب خواهد شد ، برای تغییر آن در فایل زیر خط ۵ را با موارد دلخواه تغییر دهید
 <div dir="ltr">
- 
+
 `/usr/bin/sabooh`
 
 </div>
