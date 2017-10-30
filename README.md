@@ -50,9 +50,9 @@ zsh <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/saboo
 ```
 </div>
 
-### تنظیمات پایانه 
+### تنظیمات پایانه
 
-<div dir="ltr">
+<div dir="rtl">
 
 پیشنهاد می‌شود از پایانه‌ای مثل کنسول که از زبان‌های راست به چپ به خوبی پشتیبانی می‌کند استفاده کنید ، در غیر این صورت ابزار [FriBidi](https://github.com/behdad/fribidi) به شما کمک خواهد کرد.
 درباره فونت هم پیشنهاد همیشگی من [وزیر](https://rastikerdar.github.io/vazir-font/) نسخه کُد برای پایانه است.
