@@ -72,9 +72,10 @@ zsh <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/saboo
 `sabooh 5`  شعر مولوی
 
 </div>
+
 برای حفظ همیشگی هم آرگومان عدد شاعر را در فایل پروفایل شل خود نیز اصلاح کنید (فایل نصاب برای راهنمایی بیشتر ببینید)
 
-<br>
+
 
 همه شاعران (1)
 
