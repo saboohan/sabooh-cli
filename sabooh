@@ -11,7 +11,10 @@ else:
     poet = default_poet
 
 try:
-    poem = requests.get('http://c.ganjoor.net/beyt-json.php?p=' + poet).json()
+    poem = requests.get(
+        'http://c.ganjoor.net/beyt-json.php?p=' + poet,
+        timeout=2
+    ).json()
     print(
         '\n\n\t' + poem['m1'] + '\n\t' + poem['m2'] +
         '\n\t\t' + poem['poet'] + '\n')
