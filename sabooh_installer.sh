@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-echo -e "\\t Sabooh Installer"
-git clone https://github.com/mostafaasadi/sabooh
-cd sabooh
+echo -e "\\t sabooh-cli Installer"
+git clone https://github.com/saboohan/sabooh-cli
+cd sabooh-cli
 echo '''
 1. همه شاعران
 2.  حافظ
@@ -24,17 +24,23 @@ echo '''
 40. سلمان ساوجی
 41. رهی معیری
 '''
-read  -e -r -p 'شاعر? ' poet
-sed -i "s/^default_poet.*/default_poet = '$poet'/" sabooh
-echo -e '\tشاعر شماره '$poet' انتخاب شد'
-echo -e '\n\t Installing...'
-sudo cp -v sabooh /usr/bin/
-sudo chmod +x /usr/bin/sabooh
+
 if [[ $SHELL == '/bin/bash' ]]; then
+    read  -e -r -p 'شاعر: ' poet
+    sed -i "s/^default_poet.*/default_poet = '$poet'/" sabooh
+    echo -e '\tشاعر شماره '$poet' انتخاب شد'
 	echo 'your shell : bash'
 	echo 'sabooh' | sudo tee /etc/profile.d/sabooh.sh
 elif [[ $SHELL == '/usr/bin/zsh' ]] || [[ $SHELL == '/bin/zsh' ]]; then
-	echo 'your zsh : zsh'
+    echo 'شاعر: '
+    read poet
+    sed -i "s/^default_poet.*/default_poet = '$poet'/" sabooh
+    echo -e '\tشاعر شماره '$poet' انتخاب شد'
+	echo 'your shell : zsh'
 	echo 'sabooh' | sudo tee -a /etc/zsh/zprofile
 fi
+echo -e '\n\t Installing...'
+sudo cp -v sabooh /usr/bin/
+sudo chmod +x /usr/bin/sabooh
+rm -rf sabooh-cli
 echo 'Done.'
