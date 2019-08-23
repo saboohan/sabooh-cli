@@ -1,6 +1,6 @@
 <div dir="rtl">
 
-# sabooh
+# saboohc-cli
 ## صبوح ، می صبحگاهی را گویند
 ### صبوح در هر نشست شما را مهمان یک شعر می‌کند
 
@@ -12,7 +12,7 @@
 <div dir="ltr">
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/sabooh_installer.sh)
+bash <(curl -s https://raw.github.com/saboohan/sabooh-cli/master/sabooh_installer.sh)
 ```
 </div>
 
@@ -21,7 +21,7 @@ bash <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/sabo
 <div dir="ltr">
 
 ```
-zsh <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/sabooh_installer.sh)
+zsh <(curl -s https://raw.github.com/saboohan/sabooh-cli/master/sabooh_installer.sh)
 ```
 </div>
 
@@ -45,8 +45,8 @@ sudo cp sabooh /usr/bin
 <div dir="ltr">
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/sabooh_uninstaller.sh)
-zsh <(curl -s https://raw.githubusercontent.com/mostafaasadi/sabooh/master/sabooh_uninstaller.sh)
+bash <(curl -s https://raw.github.com/saboohan/sabooh-cli/master/sabooh_uninstaller.sh)
+zsh <(curl -s https://raw.github.com/saboohan/sabooh-cli/master/sabooh_uninstaller.sh)
 ```
 </div>
 

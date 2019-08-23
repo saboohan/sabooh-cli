@@ -3,7 +3,7 @@ import sys
 import requests
 
 # config poet
-default_poet = '2'
+default_poet = ''
 
 if len(sys.argv) > 1 and sys.argv[1]:
     poet = str(sys.argv[1])
